@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1724748530147,
+        "name": "karan",
+        "email": "karan123@gmail.com",
+        "password": "123",
+        "image": "localhost:3000/download.jpeg"
+    },
+    {
+        "id": 1724748562414,
+        "name": "karan",
+        "email": "karan1234@gmail.com",
+        "password": "1234",
+        "image": "localhost:3000/download.jpeg"
+    }
+]

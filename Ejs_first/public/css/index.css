@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(32, 30, 30);
+    align-items: center;
+}
+
+header h3{
+    font-size:30px;
+    color: white;
+}
+header nav a{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    background-color: grey;
+}

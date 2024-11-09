@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Page</title>
+</head>
+<body>
+    <form action="/search" method="GET">
+        <input type="text" name="query" placeholder="Search..." required>
+        <button type="submit">Search</button>
+    </form>
+
+    <% if (results && results.length > 0) { %>
+        <h2>Search Results:</h2>
+        <ul>
+            <% results.forEach(function(result) { %>
+                <li><%= result %></li>
+            <% }) %>
+        </ul>
+    <% } else if (results) { %>
+        <p>No results found.</p>
+    <% } %>
+</body>
+</html>
