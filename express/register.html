@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            position: absolute;
+            border: 2px solid black;
+            width: 480px;
+            padding: 10px;
+            left: 30%;
+            
+        }
+        .container input{
+            width: 400px;
+            margin-top: 20px;
+        }
+        .container button{
+            margin-left: 200px;
+            margin-top: 10px;
+            padding: 10px;
+            border: none;
+            background-color: red;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form action="/register" method="post">
+            <label>Name : </label>
+            <input type="text" name="name">
+            <label>Email : </label>
+            <input type="email" name="email">
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
